@@ -1,6 +1,7 @@
 import CardCard from '../../components/CarCard';
 import CommentCard from '../../components/CommentsCard';
 import Header from '../../components/Header';
+import PageFooter from '../../components/PageFooter';
 import './styles.css';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
                 </div>
             </section>
         </main>
+        <PageFooter></PageFooter>
     </>
     );
 }
