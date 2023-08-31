@@ -1,5 +1,5 @@
 import CardCard from '../../components/CarCard';
-import CommentCard from '../../components/CommentsCard';
+import CommentCard from '../../components/CommentCard';
 import Header from '../../components/Header';
 import PageFooter from '../../components/PageFooter';
 import './styles.css';
