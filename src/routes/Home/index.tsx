@@ -1,4 +1,5 @@
 import CardCard from '../../components/CarCard';
+import CommentCard from '../../components/CommentsCard';
 import Header from '../../components/Header';
 import './styles.css';
 
@@ -12,7 +13,16 @@ export default function Home() {
                     <CardCard></CardCard>
                     <CardCard></CardCard>
                 </div>
-
+            </section>
+            <section id='dstop-section-comments'>
+                <h2>Oque estão dizendo</h2>
+                <div className='dstop-card-container'>
+                    <CommentCard></CommentCard>
+                    <CommentCard></CommentCard>
+                    <CommentCard></CommentCard>
+                    <CommentCard></CommentCard>
+                    <CommentCard></CommentCard>
+                </div>
             </section>
         </main>
     </>

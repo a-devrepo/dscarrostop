@@ -3,11 +3,14 @@
 :root {
   --dstop-color-bg-primary: #fff;
   --dstop-color-bg-secondary: #3c9af0;
+  --dstop-color-bg-tertiary: #c8c8c8;
 
   --dstop-color-font-primary: #fff;
   --dstop-color-font-secondary: #5e5e5e;
+  --dstop-color-font-tertiary: #3c9af0;
 
   --dstop-color-card-border: #3c9af0;
+  --dstop-color-card-bg: #fff;
 }
 
 * {
