@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 :root {
-  --ct-color-bg-primary: #fff;
+  --dstop-color-bg-primary: #fff;
+  --dstop-color-bg-secondary: #3c9af0;
+
+  --dstop-color-font-primary: #fff;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans";
+  font-family: "Poppins", sans-serif;
 }
 
 a,
@@ -17,5 +22,11 @@ a:hover {
 
 html,
 body {
-  background-color: var(--ct-color-bg-primary);
+  background-color: var(--dstop-color-bg-primary);
+}
+
+.dstop-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
