@@ -1,0 +1,18 @@
+.dstop-car-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--dstop-color-card-border);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.dstop-car-card img {
+  width: 260px;
+}
+
+.dstop-car-card h3 {
+  margin-top: 10px;
+  color: var(--dstop-color-font-secondary);
+}
