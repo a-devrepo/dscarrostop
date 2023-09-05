@@ -1,4 +1,5 @@
 .dstop-comment-card {
+  width: 100%;
   background-color: var(--dstop-color-card-bg);
   border-radius: 12px;
   border: 1px solid var(--dstop-color-card-border);

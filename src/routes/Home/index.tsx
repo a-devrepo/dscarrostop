@@ -9,20 +9,24 @@ export default function Home() {
         <Header></Header>
         <main>
             <section id='dstop-section-cars'>
-                <h2>Venha nos visitar</h2>
-                <div className='dstop-card-container'>
-                    <CardCard></CardCard>
-                    <CardCard></CardCard>
+                <div className='dstop-container'>
+                    <h2>Venha nos visitar</h2>
+                    <div className='dstop-card-container'>
+                        <CardCard></CardCard>
+                        <CardCard></CardCard>
+                    </div>
                 </div>
             </section>
             <section id='dstop-section-comments'>
-                <h2>Oque estão dizendo</h2>
-                <div className='dstop-card-container'>
-                    <CommentCard></CommentCard>
-                    <CommentCard></CommentCard>
-                    <CommentCard></CommentCard>
-                    <CommentCard></CommentCard>
-                    <CommentCard></CommentCard>
+                <div className='dstop-container'>
+                    <h2>Oque estão dizendo</h2>
+                    <div className='dstop-card-container'>
+                        <CommentCard></CommentCard>
+                        <CommentCard></CommentCard>
+                        <CommentCard></CommentCard>
+                        <CommentCard></CommentCard>
+                        <CommentCard></CommentCard>
+                    </div>
                 </div>
             </section>
         </main>

@@ -12,6 +12,26 @@
 }
 
 .dstop-car-card h3 {
+  font-size: 16px;
   margin-top: 10px;
   color: var(--dstop-color-font-secondary);
+}
+
+@media (min-width: 1200px) {
+  .dstop-car-card {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  .dstop-car-card img {
+    width: 391px;
+  }
+
+  .dstop-car-card {
+    width: 746px;
+  }
+
+  .dstop-car-card h3 {
+    font-size: 20px;
+  }
 }
